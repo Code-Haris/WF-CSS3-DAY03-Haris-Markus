@@ -1,0 +1,118 @@
+.nutritionFacts{
+	border: 1px solid black;
+	width: 270px;
+	font-size: 1em;
+	font-family:"helvetica";
+	margin: 1em;
+	padding:.25em;
+	border-collapse:seperate;
+	border-spacing:0px;
+}
+
+.smallWidth{
+	width: 4em;
+}
+.alignBottom{
+	vertical-align:bottom;
+}
+
+.alignLeft{
+	text-align: left;
+}
+.alignRight{
+	text-align:right;
+}
+
+.attrRow td{
+	font-size: .75em;
+	border-top:1px solid black;
+}
+.attrRow td.label{
+	font-weight: bold;
+	font-size: .9em;
+}
+.attrRow td.label span.ammount{
+	font-weight: initial;
+}
+.attrRow.vitamin .label{
+	font-weight: initial;
+	font-size: .75em;
+}
+
+.footnotes td{
+	font-size: .678em;
+	border-top: 1px solid black;
+}
+.footnotes .footnote{
+	display:flex;
+	padding-bottom: .25em;
+	padding-top: .25em;
+}
+.footnotes .footnote .marker{
+	min-width: 2em;
+	text-align: right;
+	padding-right: 2px;
+}
+
+.attrRow.subAttr td{
+	padding-top: 2px;
+	border-top: 1px solid transparent;
+	box-shadow: inset 0px 1px 0px 0px black;
+}
+.attrRow.subAttr .label{
+	border-left: 1em solid transparent;
+	font-weight: initial;
+	font-size: .75em;
+}
+
+.startBigLine td{
+	border-bottom:.5em solid black;
+}
+.endBigLine td{
+	border-top:.5em solid black;
+	padding-top: .33em;
+}
+
+.bigLine td{
+	border-bottom: 1em solid black;
+}
+
+.caloricTable{
+	width: 100%;
+	border-collapse:seperate;
+	border-spacing:0px;
+	font-size: .75em;
+}
+
+.caloricTable .header td{
+	border-bottom:1px solid black;
+}
+.caloricTable tr.sub td.label{
+	border-left: 1em solid transparent;
+}
+
+.dvpRow td{
+	font-size: .9em;
+	border-top: .5em solid black;
+	font-weight: bold;
+	text-align:right;
+}
+
+.smaller{
+	font-size:.75em;
+}
+
+.boldData{
+	font-weight: bold;
+}
+
+.title{
+	font-size: 2em;
+	text-align:justify;
+	font-weight:bold;
+}
+
+.blackBar td{
+	background-color:black;
+	height: 1em;
+}
